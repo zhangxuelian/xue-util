@@ -1,0 +1,30 @@
+{
+  "name": "xue-util",
+  "version": "0.0.1",
+  "description": "",
+  "main": "util/index.js",
+  "scripts": {
+    "build": "node ./pack/build.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhangxuelian/xue-util.git"
+  },
+  "keywords": [
+    "util"
+  ],
+  "author": "zhangxuelian <761303248@qq.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zhangxuelian/xue-util/issues"
+  },
+  "homepage": "https://github.com/zhangxuelian/xue-util#readme",
+  "devDependencies": {
+    "@babel/core": "^7.22.5",
+    "@babel/preset-env": "^7.22.5",
+    "babel-loader": "^9.1.2",
+    "babel-polyfill": "^6.26.0",
+    "terser-webpack-plugin": "^5.3.9",
+    "webpack": "^5.87.0"
+  }
+}
