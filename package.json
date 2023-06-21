@@ -1,5 +1,5 @@
 {
-  "name": "xue-util",
+  "name": "@xeui/util",
   "version": "0.0.1",
   "description": "",
   "main": "es/index.js",
