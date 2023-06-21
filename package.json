@@ -2,9 +2,9 @@
   "name": "xue-util",
   "version": "0.0.1",
   "description": "",
-  "main": "util/index.js",
+  "main": "es/index.js",
   "scripts": {
-    "build": "node ./pack/build.js"
+    "build": "rollup -c ./pack/rollup.config.mjs"
   },
   "repository": {
     "type": "git",
@@ -20,11 +20,9 @@
   },
   "homepage": "https://github.com/zhangxuelian/xue-util#readme",
   "devDependencies": {
-    "@babel/core": "^7.22.5",
     "@babel/preset-env": "^7.22.5",
-    "babel-loader": "^9.1.2",
-    "babel-polyfill": "^6.26.0",
-    "terser-webpack-plugin": "^5.3.9",
-    "webpack": "^5.87.0"
+    "@rollup/plugin-babel": "^6.0.3",
+    "@rollup/plugin-terser": "^0.4.3",
+    "rollup": "^3.25.1"
   }
 }
