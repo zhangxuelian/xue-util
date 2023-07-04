@@ -1,6 +1,6 @@
 {
   "name": "@xeui/util",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "",
   "main": "es/index.js",
   "scripts": {
@@ -24,5 +24,8 @@
     "@rollup/plugin-babel": "^6.0.3",
     "@rollup/plugin-terser": "^0.4.3",
     "rollup": "^3.25.1"
+  },
+  "dependencies": {
+    "vue": "^2.6.12"
   }
 }
